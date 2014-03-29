@@ -1,0 +1,32 @@
+{
+  "name": "task-combine",
+  "version": "0.1.0",
+  "main": "lib/combine.js",
+  "description": "Combine text files.",
+  "homepage": "https://github.com/taskjs/task-combine",
+  "bugs": "https://github.com/taskjs/task-combine/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-combine"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task"
+  ],
+  "dependencies": {
+    "execution": "^0.1.0",
+    "record": "^0.2.0",
+    "lodash": "^2.4.1"
+  },
+  "scripts": {
+    "test": "node test/combine_test"
+  }
+}
